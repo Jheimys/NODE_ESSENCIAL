@@ -1,5 +1,5 @@
 //Carrega o módulo HTTP
-http = require('http')
+var http = require('http')
 
 //Função de callback para o servidorHTTP
 var cb = function(req, res){
