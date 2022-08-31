@@ -1,0 +1,15 @@
+{
+  "name": "1_introducao",
+  "version": "1.0.0",
+  "description": "Exemplo cap 05",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "livro",
+    "node"
+  ],
+  "author": "Ricardo",
+  "license": "ISC"
+}
