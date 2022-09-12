@@ -1,0 +1,15 @@
+{
+  "name": "5_update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "04-update.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 04-update.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

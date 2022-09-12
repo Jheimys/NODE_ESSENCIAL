@@ -1,0 +1,15 @@
+{
+  "name": "3_select_carros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "02-select-carros.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 02-selct-carros.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "4_insert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "03-insert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 03-insert.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
