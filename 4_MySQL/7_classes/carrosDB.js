@@ -117,4 +117,39 @@ class CarroDB {
     }
 
     //Deleta um carro no BD
+    static deleteById(carro, callback){
+        let connection = CarroDB.connect()
+
+        //SQL para deletar carro
+        let sql = "delete from carro where id = ?"
+
+        //Id do carro para deletar
+        let id = carro.id
+        let query = connection.query(sql, id, function(error, results, fields){
+            if(error) throw error
+            callback(carro)
+        })
+
+        console.log(query.sql)
+
+        connection.end()
+
+    }
+
+     //Deleta um carro pelo ID
+     static deleteById(id, callback){
+        let connection = CarroDB.connect()
+
+        //SQL para deletar carro
+        let sql = "delete from carro where id = ?"
+        let query = connection.query(sql, id, function(error, results, fields){
+            if(error) throw error
+            callback(results.affectedRows)
+        })
+
+        console.log(query.sql)
+
+        connection.end()
+
+    }
 }
